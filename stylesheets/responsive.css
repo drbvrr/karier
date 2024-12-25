@@ -1,0 +1,59 @@
+/* Стили для планшетов (iPad) */
+@media (max-width: 768px) {
+    body::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(../images/desktop.svg);
+        background-size: cover;
+        content: '';
+        width: 100%;
+        height: 100%;
+        opacity: 20%;
+    }
+    /* стили текста */
+    h3 {
+        font-size: 4vw;
+        position: absolute;
+        letter-spacing: -0.04vw;
+        color: #2E2E2E;
+    }
+    h4 {
+        font-size: 1vw;
+        position: absolute;
+        letter-spacing: -0.06vw;
+        color: #939393;
+    }
+    #section1{
+        position: relative;
+        height: 67.45vw;
+    }
+    /* див 1 панель заказов секция 1 */
+    #div1 {
+        height: 67.6vw;
+        width: 100vw;
+        position: relative;
+        border: solid #9C9C9C;
+        border-width: 0vw 0.09vw 0.09vw 0vw;
+    }
+    #div1 #decor1 {
+        bottom: 0.9vw;
+        right: 4.4vw;
+        background-image: url(../images/decor.svg);
+        background-size: cover;
+        width: 10.1vw;
+        height: 2.6vw;
+        position: absolute;
+    }
+    #zavodkarier {
+        top: 2.5vw;
+        left: 4.4vw;
+    }
+
+
+
+
+
+
+
+}
