@@ -1,59 +1,530 @@
 /* Стили для планшетов (iPad) */
 @media (max-width: 768px) {
-    body::after {
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-image: url(../images/desktop.svg);
-        background-size: cover;
-        content: '';
-        width: 100%;
-        height: 100%;
-        opacity: 20%;
+    body {
+        height: 867vw;
     }
     /* стили текста */
     h3 {
         font-size: 4vw;
-        position: absolute;
         letter-spacing: -0.04vw;
-        color: #2E2E2E;
     }
     h4 {
-        font-size: 1vw;
-        position: absolute;
+        font-size: 3vw;
         letter-spacing: -0.06vw;
-        color: #939393;
     }
     #section1{
         position: relative;
-        height: 67.45vw;
+        height: 312vw;
     }
+    /* СЕКЦИЯ 1 */
     /* див 1 панель заказов секция 1 */
     #div1 {
         height: 67.6vw;
         width: 100vw;
-        position: relative;
-        border: solid #9C9C9C;
-        border-width: 0vw 0.09vw 0.09vw 0vw;
+        border: none;
     }
     #div1 #decor1 {
         bottom: 0.9vw;
         right: 4.4vw;
-        background-image: url(../images/decor.svg);
-        background-size: cover;
-        width: 10.1vw;
+        width: 10.2vw;
         height: 2.6vw;
-        position: absolute;
     }
     #zavodkarier {
         top: 2.5vw;
         left: 4.4vw;
     }
-
-
-
-
-
-
-
+    #year {
+        top: 2.5vw;
+        left: 46vw;
+    }
+    #metall {
+        top: 2.5vw;
+        right: 4.4vw;
+    }
+    #plus1 {
+        left: 4.4vw;
+        top: 27vw;
+    }
+    #plus2 {
+        right: 4.4vw;
+        top: 27vw;
+    }
+    #panel {
+        left: 4.4vw;
+        top: 7.7vw;
+    }
+    h2 {
+        font-size: 10vw;
+        left: 4.4vw;
+        bottom: 0.5vw;
+        letter-spacing: -0.7vw;
+    }
+    #new {
+        left: 4.4vw;
+        top: 42vw;
+    }
+    .dashed {
+        border-top: 0.2vw dashed #9B9B9B;
+        top: 33.5vw;
+    }
+    /* изображение справа и задание цехам див 3 */
+    #waves1 {
+        top: 72vw;
+        width: 100%;
+        height: 50.8vw;
+        border-width: 0vw 0vw 0vw 0.09vw;
+    }
+    /* див 2 сообщение от заказчика секция 1 */
+    #div2 {
+        height: 58vw;
+        width: 100%;
+        top: 122.8vw;
+        left: 0;
+    }
+    #div2 .dashed {
+        top: 9.4vw;
+    }
+    #dashedmobile {
+        border-top: 0.2vw solid #9B9B9B;
+    }
+    #div2 #mail {
+        height: 5.2vw;
+        top: 2.4vw;
+        left: 4.4vw;
+        width: 93.8vw;
+    }
+    .timemobile {
+        font-size: 3vw;
+        letter-spacing: -0.06vw;
+        color: #939393;
+    }
+    #time {
+        left: 4.4vw;
+        top: 15vw;
+    }
+    #problem {
+        left: 50vw;
+        top: 28vw;
+        line-height: 5vw;
+        width: 45vw;
+        text-transform: uppercase;
+    }
+    /* небольшие квадраты элементы системы */
+    .element { /* общий стиль для всех квадратов */
+        width: 24.9vw;
+        height: 25vw;
+        border: solid #9C9C9C;
+        border-width: 0.2vw;
+        background-size: cover;
+    }
+    #element3m {
+        left: 24.9vw;
+        top: 180.8vw;
+        background-image: url(../images/element2m.svg);
+        background-position: 0 auto;
+        display: initial;
+        visibility: visible;
+    }
+    #element1 {
+        top: 180.8vw;
+        left: 0;
+        background-position: center;
+    }
+    #element4m {
+        top: 180.8vw;
+        right: 0;
+        background-position: center;
+        background-image: url(../images/element1.svg);
+        display: initial;
+        visibility: visible;
+    }
+    #element2 {
+        top: 180.8vw;
+        right: 24.9vw;;
+        background-image: url(../images/element2m.svg);
+    }
+    #rec1 {
+        display: none;
+        visibility: hidden;
+    }
+    #div3 {
+        border-width: 0.2vw 0vw 0.2vw 0.2vw;
+        width: 100%;
+        height: 50.1vw;
+        left: 0;
+        top: 206vw;
+    }
+    #task {
+        left: 4.4vw;
+        top: 4.5vw;
+    }
+    #tasktext {
+        left: 50vw;
+        bottom: 5.3vw;
+        line-height: 3.8vw;
+        width: 43vw;
+        top: auto;
+    }
+    #div4 {
+        border-width: 0.2vw 0vw 0.2vw 0.2vw;
+        width: 100%;
+        height: 55.6vw;
+        left: 0;
+        top: 256.3vw;
+    }
+    #div4 .data {
+        width: 50vw;
+        height: 18.6vw;
+        border-bottom: 0.2vw dashed #9B9B9B;
+    }
+    #div4 .data h4 {
+        left: 4.4vw;
+        top: 4.4vw;
+    }
+    #div4 .data h3 {
+        left: 4.4vw;
+        top: 9.1vw;
+    }
+    p {
+        display: none;
+        visibility: hidden;
+    }
+    #data2a {
+        top: 18.6vw;
+        left: 0;
+    }
+    #data3a {
+        bottom: 0;
+        left: 0;
+        top: auto;
+    }
+    #data4a {
+        right: 0;
+        top: 0;
+        border-left: 0.2vw dashed #9B9B9B;
+    }
+    #data5a {
+        right: 0;
+        top: 18.6vw;
+        border-left: 0.2vw dashed #9B9B9B;
+    }
+    #div4 .data2 {
+        bottom: 0;
+        right: 0;
+        width: 50vw;
+        height: 18.6vw;
+        border-left: 0.2vw dashed #9B9B9B;
+    }
+    #div4 .data2 h4 {
+        left: 4.4vw;
+        top: 4.4vw;
+    }
+    #div4 .data2 h3 {
+        left: 4.4vw;
+        top: 9.1vw;
+    }
+    /* СЕКЦИЯ 2 */
+    #section2 {
+        border-width: 0.2vw 0vw 0.2vw 0vw;
+        height: 50vw;
+    }
+    #waves2 {
+        top: 362.2vw;
+        width: 100%;
+        height: 50vw;
+        border-width: 0vw 0vw 0vw 0vw;
+    }
+    #rec2 {
+        height: 8vw;
+        width: 14vw;
+        border-width: 0.2vw 0vw 0vw 0.2vw;
+        top: 72vw;
+    }
+    #rec3 {
+        height: 8vw;
+        width: 14vw;
+        border-width: 0.2vw 0vw 0.2vw 0.2vw;
+        right: 0;
+        left: auto;
+        top: 362.2vw;
+    }
+    /* СЕКЦИЯ 3 */
+    #section3 {
+        position: relative;
+        height: 355.8vw;
+        margin-top: 49.94vw;
+    }
+    #element5m {
+        top: 0;
+        right: 0;
+        background-position: center;
+        background-image: url(../images/element4.svg);
+        display: initial;
+        visibility: visible;
+    }
+    #element4 {
+        left: 0;
+        top: 0;
+    }
+    #element3 {
+        background-position: center;
+        left: 24.9vw;
+        top: 0;
+    }
+    #element6m {
+        top: 0;
+        right: 24.9vw;
+        background-position: center;
+        background-image: url(../images/element2.svg);
+        display: initial;
+        visibility: visible;
+    }
+    #div5 {
+        border-width: 0.2vw 0vw 0.2vw 0.2vw;
+        width: 100%;
+        height: 50.1vw;
+        left: 0;
+        top: 25vw;
+    }
+    #div5 h3 {
+        left: 4.4vw;
+        top: 4.5vw;
+    }
+    #div5 h4 {
+        left: 50vw;
+        bottom: 5.3vw;
+        line-height: 3.8vw;
+        width: 44vw;
+        top: auto;
+    }
+    #div6 {
+        border-width: 0.2vw 0vw 0.2vw 0vw;
+        width: 100%;
+        height: 37.2vw;
+        left: 0;
+        top: 75.2vw;
+    }
+    #div6 h3 {
+        left: 4.4vw;
+        top: 4.5vw;
+    }
+    .data3 {
+        width: 50vw;
+        height: 18.6vw;
+        border-bottom: 0.2vw dashed #9B9B9B;
+        top: 0;
+        right: 0;
+        border-left: 0.2vw solid #9B9B9B;
+    }
+    #div6 .data3 h4 {
+        left: 4.4vw;
+        top: 4.4vw;
+    }
+    #div6 .data3 h3 {
+        left: 4.4vw;
+        top: 9.1vw;
+    }
+    #data3 {
+        width: 50vw;
+        height: 18.6vw;
+        border-top: none;
+        border-left: 0.2vw solid #9B9B9B;
+        bottom: 0;
+        right: 0;
+    }
+    #div6 #data3 h4 {
+        left: 4.4vw;
+        top: 4.5vw;
+    }
+    #div6 #data3 h3 {
+        left: 4.4vw;
+        top: 9.1vw;
+    }
+    /* пространство генерации */
+    #div7 {
+        height: 79.5vw;
+        width: 100%;
+        border-width: 0.2vw 0vw 0.2vw 0vw;
+        top: 112.5vw;
+        background-position: center;
+    }
+    #plus3 {
+        top: 3.5vw;
+    }
+    #div7 h3 {
+        bottom: 4.4vw;
+        left: 4.4vw;
+    }
+    #div7 h4 {
+        left: 4.4vw;
+        bottom: 10vw;
+    }
+    #div7 p {
+        display: inline;
+        visibility: visible;
+        font-size: 4vw;
+        letter-spacing: -0.04vw;
+        bottom: 6.9vw;
+        right: 3.4vw;
+    }
+    #waves3 {
+        top: 192vw;
+        right: 0;
+        width: 100%;
+        height: 50.92vw;
+        border-width: 0vw 0vw 0vw 0vw;
+    }
+    #element10m,
+    #element9m,
+    #element8m,
+    #element7m {
+        display: initial;
+        visibility: visible;
+        top: 242.85vw;
+    }
+    #element10m {
+        right: 0;
+        background-image: url(../images/element6.svg);
+        background-size: cover;
+    }
+    #element9m {
+        right: 24.9vw;
+        background-image: url(../images/element2m.svg);
+        background-size: cover;
+    }
+    #element8m {
+        left: 24.9vw;
+        background-image: url(../images/element2m.svg);
+        background-size: cover;
+    }
+    #element7m {
+        background-image: url(../images/element6.svg);
+    }
+    #div8 {
+        display: none;
+        visibility: hidden;
+    }
+    #div9 {
+        border-width: 0.2vw 0vw 0.2vw 0.2vw;
+        width: 100%;
+        height: 50.1vw;
+        left: 0;
+        top: 268.1vw;
+    }
+    #div9 h3 {
+        left: 4.4vw;
+        top: 4.5vw;
+    }
+    #div9 h4 {
+        left: 50vw;
+        bottom: 5.3vw;
+        line-height: 3.8vw;
+        width: 44vw;
+        top: auto;
+    }
+    /* данные про поставку и итог */
+    #div10 {
+        border-width: 0.2vw 0vw 0.2vw 0vw;
+        width: 100%;
+        height: 37.2vw;
+        left: 0;
+        top: 318.4vw;
+    }
+    #div10 #h3 {
+        display: none;
+        visibility: hidden;
+    }
+    #div10 .dataa {
+        width: 50vw;
+        height: 18.6vw;
+    }
+    #div10 #data10 {
+        border-top: none;
+        border-right: 0.2vw dashed #9B9B9B;
+        top: 0vw;
+        border-bottom: 0.2vw dashed #9B9B9B;
+    }
+    #div10 #data11 {
+        border-top: none;
+        border-right: 0.2vw dashed #9B9B9B;
+        bottom: 0vw;
+        position: absolute;
+    }
+    #div10 #data12 {
+        border-top: none;
+        border-right: none;
+        top: 0vw;
+        right: 0vw;
+        left: auto;
+        border-bottom: 0.2vw dashed #9B9B9B;
+    }
+    #div10 #data13 {
+        border-top: none;
+        border-right: none;
+        bottom: 0vw;
+        right: 0vw;
+        left: auto;
+    }
+    .dataa h3 {
+        left: 4.4vw;
+        top: 9.1vw;
+    }
+    .dataa h4 {
+        left: 4.4vw;
+        top: 4.5vw;;
+    }
+    #arrowdiv {
+        display: none;
+        visibility: hidden;
+    }
+    #rec4 {
+        height: 9vw;
+        width: 14vw;
+        border-width: 0.2vw 0vw 0.2vw 0.2vw;
+        top: 191vw;
+    }
+    /* СЕКЦИЯ 4 */
+    #section4 {
+        height: 100vw;
+    }
+    #element5,
+    #element6 {
+        display: none;
+        visibility: hidden;
+    }
+    #result {
+        border-width: 0.2vw 0vw 0.2vw 0vw;
+        width: 100%;
+        height: 50.1vw;
+        left: 0vw;
+        top: 0vw;
+    }
+    #div11 {
+        border-width: 0.2vw 0vw 0.2vw 0vw;
+        width: 100%;
+        height: 50.1vw;
+        left: 0vw;
+        bottom: 0vw;
+    }
+    #div11 h4 {
+        left: 4.4vw;
+        top: 4.4vw;
+        line-height: 3.8vw;
+    }
+    #div11 h3 {
+        bottom: 16.5vw;
+        left: 4.4vw;
+    }
+    #div11 #h2m {
+        font-size: 10vw;
+        left: 4.3vw;
+        bottom: 5.5vw;
+        letter-spacing: -0.7vw;
+    }
+    #div11 #decor2 {
+        bottom: 5.9vw;
+        right: 4.4vw;
+        width: 10.3vw;
+        height: 2.6vw;
+    }
 }
