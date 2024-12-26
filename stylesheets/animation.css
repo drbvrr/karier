@@ -1,0 +1,189 @@
+/* БЕГУЩАЯ СТРОКА */
+#mail {
+    height: 1.2vw;
+    position: relative;
+    top: 1.3vw;
+    left: 1.5vw;
+    width: 20.8vw;
+    overflow: hidden; /* Скрываем текст, который выходит за пределы контейнера */
+}
+
+#order {
+    position: absolute; /* Делаем позицию абсолютной для анимации */
+    white-space: nowrap; /* Запрещаем перенос строк */
+    animation: scroll 85s linear infinite; /* Запускаем анимацию */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%); /* Начинаем с правой стороны */
+    }
+    100% {
+        transform: translateX(-100%); /* Заканчиваем за левой стороной */
+    }
+}
+
+/* ПОВОРАЧИВАЮЩИЕСЯ ПЛЮСЫ */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    75% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+#plus2 {
+    animation: rotate 2s infinite; /* 2s - продолжительность одного цикла анимации */
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-90deg);
+    }
+    50% {
+        transform: rotate(-90deg);
+    }
+    75% {
+        transform: rotate(-180deg);
+    }
+    100% {
+        transform: rotate(-180deg);
+    }
+}
+
+#plus1 {
+    animation: rotate2 2s infinite; /* 2 секунды для полного цикла анимации */
+    transform-origin: center; /* Устанавливаем точку вращения в центр элемента */
+}
+
+/* ПЕЧАТНАЯ МАШИНКА */
+@keyframes typing {
+    0% { width: 0; }
+    10% { width: 100%; }
+    20% { width: 100%; }
+    30% { width: 0; }
+    40% { width: 100%; }
+    50% { width: 100%; }
+    60% { width: 0; }
+    70% { width: 100%; }
+    90% { width: 100%; }
+    100% { width: 0; }
+}
+
+@keyframes blink {
+    0%, 100% { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+#pay .text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.15em solid black;
+    animation: typing 6s steps(10, end) infinite, blink 0.75s step-end infinite;
+}
+
+#pay .text::after {
+    content: 'ПОЖАЛУЙСТА';
+    animation: changeText 6s steps(1, end) infinite;
+}
+
+@keyframes changeText {
+    0%, 30% { content: 'ПОЖАЛУЙСТА'; }
+    30%, 60% { content: 'ЭТО СРОЧНО'; }
+    60%, 100% { content: 'ПЛАЧУ 3Х'; }
+}
+/* ЗАМЕНА КВАДРАТИКОВ ДЕКОР */
+@keyframes changeBackground {
+    0% {
+        background-image: url(../images/decor1.svg);
+    }
+    25% {
+        background-image: url(../images/decor2.svg);
+    }
+    50% {
+        background-image: url(../images/decor3.svg);
+    }
+    75% {
+        background-image: url(../images/decor2.svg);
+    }
+    100% {
+        background-image: url(../images/decor1.svg);
+    }
+}
+#decor1 {
+    animation: changeBackground 1.5s infinite steps(1);
+}
+/* АНИМАЦИЯ ЭЛЕМЕНТОВ */
+@keyframes backgroundChange {
+    0% {
+        background-image: url(../images/element1.svg);
+    }
+    50% {
+        background-image: url(../images/element1a.svg);
+    }
+    100% {
+        background-image: url(../images/element1.svg);
+    }
+}
+
+#element1 {
+    animation: backgroundChange 1s infinite steps(1);
+}
+#element4m {
+    animation: backgroundChange 1s infinite steps(1);
+}
+/* ЗАДАЧА ЦЕХУ ГЛИТЧ */
+@keyframes glitch {
+    0% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#new, #task {
+    animation: glitch 0.08s infinite;
+    animation-delay: 0.1s; /* Задержка перед началом анимации */
+}
