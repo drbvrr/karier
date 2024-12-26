@@ -26,8 +26,8 @@
     #div1 #decor1 {
         bottom: 0.9vw;
         right: 4.4vw;
-        width: 10.2vw;
-        height: 2.6vw;
+        width: 10.28vw;
+        height: 2.7vw;
     }
     #zavodkarier {
         top: 2.5vw;
@@ -61,7 +61,7 @@
     }
     #new {
         left: 4.4vw;
-        top: 42vw;
+        top: 40vw;
     }
     .dashed {
         border-top: 0.2vw dashed #9B9B9B;
@@ -90,8 +90,8 @@
     #div2 #mail {
         height: 5.2vw;
         top: 2.4vw;
-        left: 4.4vw;
-        width: 93.8vw;
+        left: -0.6vw;
+        width: 100%;
     }
     .timemobile {
         font-size: 3vw;
@@ -104,10 +104,14 @@
     }
     #problem {
         left: 50vw;
-        top: 28vw;
+        top: 22vw;
         line-height: 5vw;
         width: 45vw;
         text-transform: uppercase;
+    }
+    #pay {
+        left: 50vw;
+        top: 47.8vw;
     }
     /* небольшие квадраты элементы системы */
     .element { /* общий стиль для всех квадратов */
