@@ -43,12 +43,12 @@ h4 {
     border-width: 0vw 0.09vw 0.09vw 0vw;
 }
 #div1 #decor1 {
-    bottom: 2.3vw;
+    bottom: 2vw;
     right: 1.5vw;
     background-image: url(../images/decor.svg);
     background-size: cover;
     width: 3.5vw;
-    height: 0.87vw;
+    height: 0.95vw;
     position: absolute;
 }
 #zavodkarier {
@@ -80,7 +80,7 @@ h4 {
 }
 #new {
     left: 1.5vw;
-    top: 19.1vw;
+    top: 19.55vw;
 }
 #panel {
     left: 1.5vw;
@@ -108,7 +108,7 @@ h2 {
 }
 #div2 #mail {
     height: 1.2vw;
-    position: absolute;
+    position: relative;
     top: 1.3vw;
     left: 1.5vw;
     width: 20.8vw;
@@ -128,6 +128,10 @@ h2 {
     top: 22.2vw;
     line-height: 1.75vw;
     width: 16vw;
+}
+#pay {
+    left: 1.5vw;
+    top: 29.5vw;
 }
 /* изображение справа и задание цехам див 3 */
 #waves1 {
