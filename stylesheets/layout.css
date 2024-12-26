@@ -109,13 +109,15 @@ h2 {
 #div2 #mail {
     height: 1.2vw;
     position: absolute;
-    top: 1.5vw;
+    top: 1.3vw;
     left: 1.5vw;
     width: 20.8vw;
+    overflow-x: hidden;
 }
 #order {
-    top: 1.32vw;
-    left: 1.5vw;
+    top: 0vw;
+    left: 0vw;
+    width: 200vw;
 }
 #time {
     left: 1.5vw;
@@ -183,7 +185,19 @@ h2 {
     width: 25.9vw;
     height: 5.5vw;
     border-bottom: 0.09vw dashed #9B9B9B;
-    position: relative;
+    position: absolute;
+}
+#data2a {
+    top: 5.5vw;
+}
+#data3a {
+    top: 11vw;
+}
+#data4a {
+    bottom: 11vw;
+}
+#data5a {
+    bottom: 5.5vw;
 }
 #div4 .data h4 {
     left: 1.5vw;
@@ -206,7 +220,8 @@ p {
 #div4 .data2 {
     width: 25.9vw;
     height: 5.5vw;
-    position: relative;
+    position: absolute;
+    bottom: 0;
 }
 #div4 .data2 h3 {
     left: 1.5vw;
@@ -234,6 +249,22 @@ p {
     right: 25.9vw;
     top: 56.15vw;
     background-image: url(../images/element2.svg);
+}
+#element3m {
+    display: none;
+    visibility: hidden;
+}
+#element4m {
+    display: none;
+    visibility: hidden;
+}
+#element5m {
+    display: none;
+    visibility: hidden;
+}
+#element6m {
+    display: none;
+    visibility: hidden;
 }
 #waves2 {
     position: absolute;
@@ -497,7 +528,7 @@ p {
     width: 50vw;
     border: solid #9C9C9C;
     border-width: 0vw 0.09vw 0vw 0vw;
-    position: relative;
+    position: absolute;
 }
 #div11 h3 {
     bottom: 7.5vw;
@@ -520,9 +551,10 @@ p {
 #result {
     height: 23.5vw;
     width: 37.8vw;
+    left: 50.1vw;
+    position: absolute;
     border: solid #9C9C9C;
     border-width: 0vw 0vw 0vw 0vw;
-    position: relative;
     background-image: url(../images/ZAMENI.svg);
     background-size: cover;
 }
@@ -547,4 +579,11 @@ p {
     border: solid #9C9C9C;
     border-width: 0.09vw 0vw 0vw 0.09vw;
     background-size: cover;
+}
+#element10m,
+#element9m,
+#element8m,
+#element7m {
+    display: none;
+    visibility: hidden;
 }
