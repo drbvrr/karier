@@ -1,6 +1,7 @@
 html {
     background-color: #E4E4E4;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body {
     width: 100%;
@@ -8,6 +9,7 @@ body {
     margin: 0 auto;
     position: relative;
     font-family: 'RobotoMono-Regular';
+    overflow-x: hidden;
 }
 /* стили текста */
 h3 {
@@ -136,7 +138,7 @@ h2 {
 /* изображение справа и задание цехам див 3 */
 #waves1 {
     position: absolute;
-    background-image: url(../images/waves1.png);
+    background-image: url(../images/waves1.gif);
     top: 0;
     right: 0;
     width: 25.9vw;
@@ -272,7 +274,7 @@ p {
 }
 #waves2 {
     position: absolute;
-    background-image: url(../images/waves2.png);
+    background-image: url(../images/waves1.gif);
     top: 33.6vw;
     left: 0;
     width: 62vw;
@@ -297,8 +299,17 @@ p {
     border-width: 0.09vw 0vw 0.09vw 0vw;
     width: 100%;
     height: 22.2vw;
-    background-image: url(../images/section\ 2.svg);
-    background-size: cover;
+    /* background-image: url(../images/section\ 2.svg);
+    background-size: cover; */
+    position: relative;
+    display: flex;
+    animation: marquee 18s linear infinite
+}
+.marquee {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
 }
 /* СЕКЦИЯ 3 */
 #section3{
@@ -315,6 +326,67 @@ p {
     left: 0;
     top: 11.2vw;
     background-image: url(../images/element4.svg);
+}
+.slider {
+    position: absolute;
+    height: 0.85vw;
+}
+#slider1 {
+    left: 2.45vw;
+    animation: slide1 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+}
+#slider2 {
+    left: 3.69vw;
+    animation: slide2 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+}
+#slider3 {
+    left: 4.9vw;
+    animation: slide3 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+}
+#slider4 {
+    left: 6.18vw;
+    animation: slide4 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+}
+#slider5 {
+    left: 7.43vw;
+    animation: slide5 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+}
+#slider6 {
+    left: 8.67vw;
+    animation: slide6 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+}
+/* квадратные слайдеры */
+.squareslider {
+    position: absolute;
+    height: 2.25vw;
+}
+#squareslider1 {
+    left: 2.8vw;
+    animation: squareslide1 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+}
+#squareslider2 {
+    left: 3.96vw;
+    animation: squareslide2 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+}
+#squareslider3 {
+    left: 5.1vw;
+    animation: squareslide3 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+}
+#squareslider4 {
+    left: 6.25vw;
+    animation: squareslide4 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+}
+#squareslider5 {
+    left: 7.4vw;
+    animation: squareslide5 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+}
+#squareslider6 {
+    left: 8.556vw;
+    animation: squareslide6 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+}
+#squareslider7 {
+    left: 9.7vw;
+    animation: squareslide7 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 /* див техника */
 #div5 {
@@ -502,7 +574,7 @@ p {
 }
 #waves3 {
     position: absolute;
-    background-image: url(../images/waves3.png);
+    background-image: url(../images/waves1.gif);
     bottom: 0;
     right: 0;
     width: 62vw;
