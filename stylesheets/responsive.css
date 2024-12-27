@@ -2,6 +2,7 @@
 @media (max-width: 768px) {
     body {
         height: 867vw;
+        overflow-x: hidden;
     }
     /* стили текста */
     h3 {
@@ -201,6 +202,7 @@
         bottom: 0;
         left: 0;
         top: auto;
+        border-bottom: 0.2vw solid #939393 !important;
     }
     #data4a {
         right: 0;
@@ -218,6 +220,7 @@
         width: 50vw;
         height: 18.6vw;
         border-left: 0.2vw dashed #9B9B9B;
+        border-bottom: 0.2vw solid #9B9B9B;
     }
     #div4 .data2 h4 {
         left: 4.4vw;
@@ -229,8 +232,15 @@
     }
     /* СЕКЦИЯ 2 */
     #section2 {
-        border-width: 0.2vw 0vw 0.2vw 0vw;
+        border-width: 0vw 0vw 0vw 0vw;
         height: 50vw;
+        margin-top: 0.18vw;
+    }
+    .marquee {
+        width: 350%;
+        height: 100%;
+        position: relative;
+    
     }
     #waves2 {
         top: 362.2vw;
@@ -261,7 +271,7 @@
     #element5m {
         top: 0;
         right: 0;
-        background-position: center;
+        background-size: cover;
         background-image: url(../images/element4.svg);
         display: initial;
         visibility: visible;
@@ -378,6 +388,77 @@
         height: 50.92vw;
         border-width: 0vw 0vw 0vw 0vw;
     }
+    .slider {
+        height: 1.9vw;
+    }
+    #slider1 {
+        left: 5.4vw;
+        animation: slide1m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+    #slider2 {
+        left: 8.23vw;
+        animation: slide2m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+    #slider3 {
+        left: 10.9vw;
+        animation: slide3m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+    #slider4 {
+        left: 13.65vw;
+        animation: slide4m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+    #slider5 {
+        left: 16.33vw;
+        animation: slide5m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+    #slider6 {
+        left: 19vw;
+        animation: slide6m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+    /* квадратные слайдеры */
+    .squareslider {
+        position: absolute;
+        height: 4.4vw;
+    }
+    #squareslider1 {
+        left: 5.78vw;
+        animation: squareslide1m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+    #squareslider2 {
+        left: 8.1vw;
+        animation: squareslide2m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+    #squareslider3 {
+        left: 10.4vw;
+        animation: squareslide3m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+    #squareslider4 {
+        left: 12.8vw;
+        animation: squareslide4m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+    #squareslider5 {
+        left: 15.15vw;
+        animation: squareslide5m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+    #squareslider6 {
+        left: 17.5vw;
+        animation: squareslide6m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+    #squareslider7 {
+        left: 19.8vw;
+        animation: squareslide7m 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    }
+
+
+
+
+
+
+
+
+
+
+
     #element10m,
     #element9m,
     #element8m,
