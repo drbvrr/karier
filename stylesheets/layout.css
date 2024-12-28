@@ -28,11 +28,12 @@ h4 {
 #section1{
     position: relative;
     height: 67.45vw;
+    border-bottom: 0.09vw solid #9B9B9B;
 }
 #rec1 {
     position: absolute;
     width: 24.1vw;
-    top: 0;
+    top: -4px;
     left: 50vw;
     border: #2E2E2E 0.09vw;
 }
@@ -138,7 +139,7 @@ h2 {
 /* изображение справа и задание цехам див 3 */
 #waves1 {
     position: absolute;
-    background-image: url(../images/waves1.gif);
+    background-image: url(../images/waves1.png);
     top: 0;
     right: 0;
     width: 25.9vw;
@@ -153,15 +154,15 @@ h2 {
     border: solid #9C9C9C;
     border-width: 0.09vw 0vw 0vw 0.09vw;
     right: 0;
-    top: 12.9vw;
+    top: 13vw;
     position: absolute;
     background-color: #E4E4E4;
 }
 #div3 {
     border: solid #9C9C9C;
     border-width: 0.09vw 0vw 0.09vw 0.09vw;
-    width: 25.9vw;
-    height: 16.7vw;
+    width: 25.8vw;
+    height: 16.74vw;
     position: absolute;
     right: 0;
     top: 17vw;
@@ -179,7 +180,7 @@ h2 {
 #div4 {
     border: solid #9C9C9C;
     border-width: 0.09vw 0vw 0.09vw 0.09vw;
-    width: 25.9vw;
+    width: 25.8vw;
     height: 33.55vw;
     position: absolute;
     right: 0;
@@ -188,7 +189,7 @@ h2 {
 }
 /* данные про серебро 6 одинаковых дивов */
 #div4 .data {
-    width: 25.9vw;
+    width: 25.8vw;
     height: 5.5vw;
     border-bottom: 0.09vw dashed #9B9B9B;
     position: absolute;
@@ -247,14 +248,16 @@ p {
     background-size: cover;
 }
 #element1 {
-    right: 25.9vw;
+    right: 25.8vw;
     top: 44.88vw;
+    height: 11.4vw !important;
     background-image: url(../images/element1.svg);
 }
 #element2 {
-    right: 25.9vw;
-    top: 56.15vw;
+    right: 25.8vw;
+    top: 56.3vw;
     background-image: url(../images/element2.svg);
+    height: 11.03vw !important;
 }
 #element3m {
     display: none;
@@ -274,11 +277,11 @@ p {
 }
 #waves2 {
     position: absolute;
-    background-image: url(../images/waves1.gif);
+    background-image: url(../images/waves1.png);
     top: 33.6vw;
     left: 0;
-    width: 62vw;
-    height: 33.92vw;
+    width: 62.2vw;
+    height: 33.85vw;
     background-size: cover;
     border: solid #9C9C9C;
     border-width: 0vw 0vw 0vw 0.09vw;
@@ -295,12 +298,8 @@ p {
 }
 /* СЕКЦИЯ 2 */
 #section2 {
-    border: solid #9C9C9C;
-    border-width: 0.09vw 0vw 0.09vw 0vw;
     width: 100%;
     height: 22.2vw;
-    /* background-image: url(../images/section\ 2.svg);
-    background-size: cover; */
     position: relative;
     display: flex;
     animation: marquee 18s linear infinite
@@ -309,17 +308,16 @@ p {
     width: 100%;
     height: 100%;
     position: relative;
-
 }
 /* СЕКЦИЯ 3 */
 #section3{
     position: relative;
     height: 78.7vw;
-    margin-top: -0.06vw;
 }
 #element3 {
     left: 0;
     top: 0;
+    height: 11.15vw !important;
     background-image: url(../images/element2.svg);
 }
 #element4 {
@@ -333,27 +331,27 @@ p {
 }
 #slider1 {
     left: 2.45vw;
-    animation: slide1 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: slide1 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 #slider2 {
     left: 3.69vw;
-    animation: slide2 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: slide2 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 #slider3 {
     left: 4.9vw;
-    animation: slide3 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: slide3 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 #slider4 {
     left: 6.18vw;
-    animation: slide4 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: slide4 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 #slider5 {
     left: 7.43vw;
-    animation: slide5 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: slide5 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 #slider6 {
     left: 8.67vw;
-    animation: slide6 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: slide6 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 /* квадратные слайдеры */
 .squareslider {
@@ -362,31 +360,31 @@ p {
 }
 #squareslider1 {
     left: 2.8vw;
-    animation: squareslide1 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: squareslide1 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 #squareslider2 {
     left: 3.96vw;
-    animation: squareslide2 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: squareslide2 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 #squareslider3 {
     left: 5.1vw;
-    animation: squareslide3 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: squareslide3 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 #squareslider4 {
     left: 6.25vw;
-    animation: squareslide4 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: squareslide4 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 #squareslider5 {
     left: 7.4vw;
-    animation: squareslide5 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: squareslide5 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 #squareslider6 {
     left: 8.556vw;
-    animation: squareslide6 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: squareslide6 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 #squareslider7 {
     left: 9.7vw;
-    animation: squareslide7 4s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
+    animation: squareslide7 3s cubic-bezier(0.8, 0, 0.21, 0.99) infinite;
 }
 /* див техника */
 #div5 {
@@ -395,7 +393,7 @@ p {
     width: 13.8vw;
     height: 22.4vw;
     position: relative;
-    left: 12vw;
+    left: 11.98vw;
     top: 0;
 }
 #div5 h3 {
@@ -412,7 +410,7 @@ p {
 #div6 {
     border: solid #9C9C9C;
     border-width: 0.09vw;
-    width: 24vw;
+    width: 24.2vw;
     height: 22.4vw;
     position: absolute;
     left: 25.86vw;
@@ -455,7 +453,7 @@ p {
     top: 1.2vw;
 }
 #div7 {
-    height: 44.9vw;
+    height: 45.1vw;
     width: 49.96vw;
     position: absolute;
     border: solid #9C9C9C;
@@ -473,10 +471,6 @@ p {
     left: 1.5vw;
     bottom: 3vw;
 }
-#plus3 {
-    left: 1.5vw;
-    top: 1.5vw;
-}
 #div8 {
     background-image: url(../images/Rectangle2.svg);
     background-size: cover;
@@ -484,6 +478,400 @@ p {
     height: 33.7vw;
     position: absolute;
     top: 22.49vw;
+    border-top: 0.09vw solid #9C9C9C;
+}
+/* Интерактив процесс генерации */
+#truefalse {
+    width: 39vw;
+    height: 24vw;
+    position: relative;
+    top: 4.49vw;
+    left: 5.6vw;
+}
+.true {
+    background-image: url(../images/true.svg);
+    position: absolute;
+    height: 3vw;
+    width: 3.1vw;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.false {
+    background-image: url(../images/false.svg);
+    position: absolute;
+    height: 3vw;
+    width: 3.1vw;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+#false2 {
+    left: 3.1vw;
+}
+#false3 {
+    left: 6vw;
+}
+#false4 {
+    left: 9vw;
+}
+#false5 {
+    left: 12vw;
+}
+#false6 {
+    left: 15vw;
+}
+#false7 {
+    left: 18vw;
+}
+#false8 {
+    left: 21vw;
+}
+#false9 {
+    left: 24vw;
+}
+#false10 {
+    left: 27vw;
+}
+#false11 {
+    left: 30vw;
+}
+#false12 {
+    left: 33vw;
+}
+#false13 {
+    left: 36vw;
+}
+#false14 {
+    top: 3vw;
+}
+#false15 {
+    top: 3vw;
+    left: 3vw;
+}
+#false16 {
+    top: 3vw;
+    left: 6vw;
+}
+#false17 {
+    top: 3vw;
+    left: 9vw;
+}
+#false18 {
+    top: 3vw;
+    left: 12vw;
+}
+#true1 {
+    top: 3vw;
+    left: 15vw;
+}
+#true2 {
+    top: 3vw;
+    left: 18vw;
+}
+#true3 {
+    top: 3vw;
+    left: 21vw;
+}
+#false19 {
+    top: 3vw;
+    left: 24vw;
+}
+#false20 {
+    top: 3vw;
+    left: 27vw;
+}
+#false21 {
+    top: 3vw;
+    left: 30vw;
+}
+#false22 {
+    top: 3vw;
+    left: 33vw;
+}
+#false23 {
+    top: 3vw;
+    left: 36vw;
+}
+#false24 {
+    top: 6vw;
+}
+#false25 {
+    top: 6vw;
+    left: 3vw;
+}
+#false26 {
+    top: 6vw;
+    left: 6vw;
+}
+#false27 {
+    top: 6vw;
+    left: 9vw;
+}
+#true4 {
+    top: 6vw;
+    left: 12vw;
+}
+#true5 {
+    top: 6vw;
+    left: 15vw;
+}
+#true6 {
+    top: 6vw;
+    left: 18vw;
+}
+#true7 {
+    top: 6vw;
+    left: 21vw;
+}
+#true8 {
+    top: 6vw;
+    left: 24vw;
+}
+#true9 {
+    top: 6vw;
+    left: 27vw;
+}
+#true10 {
+    top: 6vw;
+    left: 30vw;
+}
+#false28 {
+    top: 6vw;
+    left: 33vw;
+}
+#false29 {
+    top: 6vw;
+    left: 36vw;
+}
+#false30 {
+    top: 9vw;
+}
+#false31 {
+    top: 9vw;
+    left: 3vw;
+}
+#false32 {
+    top: 9vw;
+    left: 6vw;
+}
+#true11 {
+    top: 9vw;
+    left: 9vw;
+}
+#true12 {
+    top: 9vw;
+    left: 12vw;
+}
+#true13 {
+    top: 9vw;
+    left: 15vw;
+}
+#true14 {
+    top: 9vw;
+    left: 18vw;
+}
+#true15 {
+    top: 9vw;
+    left: 21vw;
+}
+#true16 {
+    top: 9vw;
+    left: 24vw;
+}
+#true17 {
+    top: 9vw;
+    left: 27vw;
+}
+#true18 {
+    top: 9vw;
+    left: 30vw;
+}
+#false33 {
+    top: 9vw;
+    left: 33vw;
+}
+#false34 {
+    top: 9vw;
+    left: 36vw;
+}
+#false35 {
+    top: 12vw;
+}
+#false36 {
+    top: 12vw;
+    left: 3vw;
+}
+#true19 {
+    top: 12vw;
+    left: 6vw;
+}
+#true20 {
+    top: 12vw;
+    left: 9vw;
+}
+#true21 {
+    top: 12vw;
+    left: 12vw;
+}
+#true22 {
+    top: 12vw;
+    left: 15vw;
+}
+#true23 {
+    top: 12vw;
+    left: 18vw;
+}
+#true24 {
+    top: 12vw;
+    left: 21vw;
+}
+#true25 {
+    top: 12vw;
+    left: 24vw;
+}
+#true26 {
+    top: 12vw;
+    left: 27vw;
+}
+#true27 {
+    top: 12vw;
+    left: 30vw;
+}
+#false37 {
+    top: 12vw;
+    left: 33vw;
+}
+#false38 {
+    top: 12vw;
+    left: 36vw;
+}
+#false39 {
+    top: 15vw;
+}
+#false40 {
+    top: 15vw;
+    left: 3vw;
+}
+#true28 {
+    top: 15vw;
+    left: 6vw;
+}
+#true29 {
+    top: 15vw;
+    left: 9vw;
+}
+#true30 {
+    top: 15vw;
+    left: 12vw;
+}
+#true31 {
+    top: 15vw;
+    left: 15vw;
+}
+#true32 {
+    top: 15vw;
+    left: 18vw;
+}
+#true33 {
+    top: 15vw;
+    left: 21vw;
+}
+#true34 {
+    top: 15vw;
+    left: 24vw;
+}
+#true35 {
+    top: 15vw;
+    left: 27vw;
+}
+#true36 {
+    top: 15vw;
+    left: 30vw;
+}
+#false41 {
+    top: 15vw;
+    left: 33vw;
+}
+#false42 {
+    top: 18vw;
+}
+#false43 {
+    top: 18vw;
+    left: 3vw;
+}
+#false44 {
+    top: 18vw;
+    left: 6vw;
+}
+#true37 {
+    top: 18vw;
+    left: 9vw;
+}
+#true38 {
+    top: 18vw;
+    left: 12vw;
+}
+#true39 {
+    top: 18vw;
+    left: 15vw;
+}
+#true40 {
+    top: 18vw;
+    left: 18vw;
+}
+#true41 {
+    top: 18vw;
+    left: 21vw;
+}
+#true42 {
+    top: 18vw;
+    left: 24vw;
+}
+#false45 {
+    top: 18vw;
+    left: 27vw;
+}
+#false46 {
+    top: 18vw;
+    left: 30vw;
+}
+#false47 {
+    top: 21vw;
+}
+#false48 {
+    top: 21vw;
+    left: 3vw;
+}
+#false49 {
+    top: 21vw;
+    left: 6vw;
+}
+#false50 {
+    top: 21vw;
+    left: 9vw;
+}
+#false51 {
+    top: 21vw;
+    left: 12vw;
+}
+#true43 {
+    top: 21vw;
+    left: 15vw;
+}
+#true44 {
+    top: 21vw;
+    left: 18vw;
+}
+#false52 {
+    top: 21vw;
+    left: 21vw;
+}
+#false53 {
+    top: 21vw;
+    left: 24vw;
+}
+#false54 {
+    top: 21vw;
+    left: 27vw;
 }
 /* данные про поставку */
 #div9 {
@@ -574,7 +962,7 @@ p {
 }
 #waves3 {
     position: absolute;
-    background-image: url(../images/waves1.gif);
+    background-image: url(../images/waves1.png);
     bottom: 0;
     right: 0;
     width: 62vw;
@@ -626,13 +1014,53 @@ p {
 }
 #result {
     height: 23.5vw;
+    overflow: hidden;
     width: 37.8vw;
     left: 50.1vw;
     position: absolute;
     border: solid #9C9C9C;
     border-width: 0vw 0vw 0vw 0vw;
-    background-image: url(../images/ZAMENI.svg);
+    background-image: url(../images/stonesbackground.png);
     background-size: cover;
+}
+#stones {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.stone {
+    animation: fallAndRotate 2s cubic-bezier(1, 0.04, 0.3, 1) infinite;
+    height: 6vw;
+    position: absolute;
+}
+#stone1 {
+    left: 1vw;
+    animation-delay: 0.5s;
+}
+#stone2 {
+    left: 5vw;
+    height: 7.5vw !important;
+    animation-delay: 1s;
+}
+#stone3 {
+    left: 10vw;
+}
+#stone4 {
+    left: 13vw;
+    animation-delay: 0.7s;
+}
+#stone5 {
+    left: 18vw;
+    height: 8vw !important;
+    animation-delay: 1.5s;
+}
+#stone6 {
+    left: 22vw;
+    animation-delay: 1.2s;
+}
+#stone7 {
+    left: 27vw;
+    animation-delay: 0.3s;
 }
 #element5 {
     right: 0;
