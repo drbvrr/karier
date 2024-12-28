@@ -288,12 +288,14 @@
         left: 25.1vw;
         top: 0;
         height: 25vw !important;
+        background-image: url(../images/element2m.svg);
+        background-size: cover;
     }
     #element6m {
         top: 0;
         right: 24.9vw;
-        background-position: center;
-        background-image: url(../images/element2.svg);
+        background-image: url(../images/element2m.svg);
+        background-size: cover;
         display: initial;
         visibility: visible;
     }
@@ -322,9 +324,37 @@
         left: 0;
         top: 75.45vw;
     }
-    #div6 h3 {
+    #div6 #timermhidden {
         left: 4.4vw;
         top: 4.5vw;
+        display: none;
+        visibility: hidden;
+    }
+    #div6 #tonnmhidden {
+        left: 4.4vw;
+        top: 4.5vw;
+        display: none;
+        visibility: hidden;
+    }
+    #div6 h3 {
+        top: 4.4vw;
+        left: 4.5vw;
+    }
+    #timerm {
+        display: initial;
+        visibility: visible;
+    }
+    #timerm:after {
+        content: '3:59:21';
+        animation: changeTimer 20s steps(1, end) infinite;
+    }
+    #tonnm {
+        display: initial;
+        visibility: visible;
+    }
+    #tonnm:after {
+        content: '500Т';
+    animation: changeTonn 20s steps(1, end) infinite;
     }
     .data3 {
         width: 50vw;
@@ -622,13 +652,6 @@
     #stone7 {
         left: 38vw;
     }
-
-
-
-
-
-
-
     #div11 {
         border-width: 0.2vw 0vw 0.2vw 0vw;
         width: 100%;
@@ -655,6 +678,6 @@
         bottom: 5.9vw;
         right: 4.4vw;
         width: 10.3vw;
-        height: 2.6vw;
+        height: 2.7vw;
     }
 }
