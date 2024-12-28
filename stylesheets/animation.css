@@ -106,6 +106,7 @@
     30%, 60% { content: 'ЭТО СРОЧНО'; }
     60%, 100% { content: 'ПЛАЧУ 3Х'; }
 }
+
 /* ЗАМЕНА КВАДРАТИКОВ ДЕКОР */
 @keyframes changeBackground {
     0% {
@@ -127,6 +128,7 @@
 #decor1 {
     animation: changeBackground 1.5s infinite steps(1);
 }
+
 /* АНИМАЦИЯ ЭЛЕМЕНТОВ */
 @keyframes backgroundChange {
     0% {
@@ -617,6 +619,159 @@
     95%, 100% { content: '134 пм'; }
 }
 
+#tonn:after {
+    content: '500Т';
+    animation: changeTonn 20s steps(1, end) infinite;
+}
+@keyframes changeTonn {
+    0%, 5% { content: '499Т'; }
+    5%, 10% { content: '500Т'; }
+    10%, 15% { content: '501Т'; }
+    15%, 20% { content: '502Т'; }
+    20%, 25% { content: '503Т'; }
+    25%, 30% { content: '504Т'; }
+    30%, 35% { content: '505Т'; }
+    35%, 40% { content: '506Т'; }
+    40%, 45% { content: '507Т'; }
+    45%, 50% { content: '508Т'; }
+    50%, 55% { content: '509Т'; }
+    55%, 60% { content: '510Т'; }
+    60%, 65% { content: '511Т'; }
+    65%, 70% { content: '512Т'; }
+    70%, 75% { content: '513Т'; }
+    75%, 80% { content: '514Т'; }
+    80%, 85% { content: '515Т'; }
+    85%, 90% { content: '516Т'; }
+    90%, 95% { content: '517Т'; }
+    95%, 100% { content: '518Т'; }
+}
 
+#timer:after {
+    content: '3:59:21';
+    animation: changeTimer 20s steps(1, end) infinite;
+}
+@keyframes changeTimer {
+    0%, 5% { content: '3:59:21'; }
+    5%, 10% { content: '3:59:20'; }
+    10%, 15% { content: '3:59:19'; }
+    15%, 20% { content: '3:59:18'; }
+    20%, 25% { content: '3:59:17'; }
+    25%, 30% { content: '3:59:16'; }
+    30%, 35% { content: '3:59:15'; }
+    35%, 40% { content: '3:59:14'; }
+    40%, 45% { content: '3:59:13'; }
+    45%, 50% { content: '3:59:12'; }
+    50%, 55% { content: '3:59:11'; }
+    55%, 60% { content: '3:59:10'; }
+    60%, 65% { content: '3:59:09'; }
+    65%, 70% { content: '3:59:08'; }
+    70%, 75% { content: '3:59:07'; }
+    75%, 80% { content: '3:59:06'; }
+    80%, 85% { content: '3:59:05'; }
+    85%, 90% { content: '3:59:04'; }
+    90%, 95% { content: '3:59:03'; }
+    95%, 100% { content: '3:59:02'; }
+}
 
+#speed:after {
+    content: '1Т/CЕК';
+    animation: changespeed 2.5s steps(1, end) infinite;
+}
+@keyframes changespeed {
+    0%, 50% { content: '1Т/CЕК'; }
+    50%, 60% { content: '1.5Т/CЕК'; }
+    60%, 80% { content: '1.3Т/CЕК'; }
+    80%, 90% { content: '1.2Т/CЕК'; }
+    90%, 95% { content: '0.9Т/CЕК'; }
+    90%, 100% { content: '0.5Т/CЕК'; }
+}
 
+/* Данные о генерации в таблице */
+#Itogtime:after {
+    content: '7:59:00';
+    animation: changeItogtime 1.5s steps(1, end) infinite;
+}
+@keyframes changeItogtime {
+    0%, 50% { content: '7:59:00'; }
+    50%, 55% { content: '$:!1:/?'; }
+    55%, 60% { content: '9:{1:}8'; }
+    60%, 65% { content: '5:3%:1$'; }
+    65%, 70% { content: '4:!4:#7'; }
+    70%, 75% { content: '3:$1:@!'; }
+    75%, 80% { content: '@:&3:&4'; }
+    80%, 100% { content: '%:6$:8&'; }
+}
+
+#ves:after {
+    content: '900,704Т';
+    animation: changeves 1.5s steps(1, end) infinite;
+}
+
+@keyframes changeves {
+    0%, 70% { content: '900,704Т'; }
+    70%, 75% { content: '6#8,231Т'; }
+    75%, 80% { content: '%67,1#2Т'; }
+    80%, 85% { content: '4#6,2%3Т'; }
+    85%, 90% { content: '%45,36#Т'; }
+    90%, 95% { content: '129,58@Т'; }
+    95%, 100% { content: '%18,&97Т'; }
+}
+
+#arg:after {
+    content: 'ARGENTUM';
+    animation: changearg 1.5s steps(1, end) infinite;
+}
+@keyframes changearg {
+    0%, 60% { content: 'ARGENTUM'; }
+    60%, 65% { content: '%GEUT$M'; }
+    65%, 70% { content: '#M&ON%VM'; }
+    70%, 75% { content: 'AE%E&TU#'; }
+    75%, 80% { content: '$R#EN&U*'; }
+    80%, 85% { content: '@&EN6U9#'; }
+    85%, 90% { content: '5R*E#T%M'; }
+    90%, 100% { content: 'ARGENTUM'; }
+}
+
+#dec:after {
+    content: '28 ДЕКАБРЯ';
+    animation: changedec 1.5s steps(1, end) infinite;
+}
+@keyframes changedec {
+    0%, 40% { content: '28 ДЕКАБРЯ'; }
+
+    40%, 45% { content: '2% ДЕ#АБ&Я'; }
+    45%, 50% { content: '8# !ЕК@БР$'; }
+    50%, 55% { content: '#8 Д&КА#РЯ'; }
+    55%, 60% { content: '76 #Е@АБР&'; }
+    60%, 65% { content: '*4 Д%КАБ#Я'; }
+    65%, 70% { content: '1$ ДRКА$РЯ'; }
+
+    70%, 100% { content: '28 ДЕКАБРЯ'; }
+}
+
+#h2m:after {
+    content: '2 009 239$';
+    animation: changeh2m 2.5s steps(1, end) infinite;
+}
+@keyframes changeh2m {
+    0%, 5% { content: '2 009 239$'; }
+    5%, 10% { content: '2 010 240$'; }
+    10%, 15% { content: '2 125 255$'; }
+    15%, 20% { content: '2 235 270$'; }
+    20%, 25% { content: '2 345 275$'; }
+    25%, 30% { content: '2 455 280$'; }
+    30%, 35% { content: '2 565 285$'; }
+    35%, 40% { content: '2 675 290$'; }
+    40%, 45% { content: '2 785 295$'; }
+    45%, 50% { content: '2 895 300$'; }
+    50%, 55% { content: '2 900 305$'; }
+    55%, 60% { content: '2 020 310$'; }
+    60%, 65% { content: '2 140 315$'; }
+    65%, 70% { content: '2 260 320$'; }
+    70%, 75% { content: '2 380 325$'; }
+    75%, 80% { content: '2 400 330$'; }
+    80%, 85% { content: '2 510 335$'; }
+    85%, 90% { content: '2 620 340$'; }
+    90%, 95% { content: '2 730 345$'; }
+    95%, 100% { content: '2 840 350$'; }
+}
