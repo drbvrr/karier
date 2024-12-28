@@ -452,6 +452,14 @@ p {
     left: 1.5vw;
     top: 1.2vw;
 }
+#timerm {
+    display: none;
+    visibility: hidden;
+}
+#tonnm {
+    display: none;
+    visibility: hidden;
+}
 #div7 {
     height: 45.1vw;
     width: 49.96vw;
@@ -1008,9 +1016,10 @@ p {
     right: 1.5vw;
     background-image: url(../images/decor.svg);
     background-size: cover;
-    width: 3.5vw;
-    height: 0.88vw;
+    width: 3.7vw;
+    height: 0.99vw;
     position: absolute;
+    animation: changeBackground 1.5s infinite steps(1);
 }
 #result {
     height: 23.5vw;
